@@ -1,0 +1,15 @@
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 200px);
+    align-items: center;
+}
+
+.about__descripcion{
+    max-width: 300px;
+    text-align: center;
+    color: #E5E5E5;
+}

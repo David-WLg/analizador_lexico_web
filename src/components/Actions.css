@@ -1,0 +1,32 @@
+
+.actions{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 54px);
+}
+
+.actions__buttons{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions__tables{
+    overflow: auto;
+}
+
+@media screen and ( max-width: 768px ) {
+    .actions{
+        width: 100%;
+        height: auto;
+    }
+
+    .actions__buttons{
+        padding: 10px 20px;
+    }
+
+    .actions__tables{
+        overflow: auto;
+    }
+}

@@ -1,0 +1,37 @@
+
+
+.query{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.query__descripcion{
+    width: 100%;
+    color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    align-items: center;
+}
+.query__descripcion p {
+    margin: 0;
+    margin-right: 10px;
+    
+}
+
+.query_table{
+    width: 80%;
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 768px){
+    .query_table{
+        width: 100%;
+    }
+
+}

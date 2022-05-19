@@ -1,0 +1,31 @@
+
+.navbar{
+    background-color: #323330;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar__link{
+    color: #E5E5E5;
+}
+.navbar__link:link{
+    color: #E5E5E5;
+}
+
+.navbar__link:hover{
+    color: #D6BB3A;
+}
+
+.navbar__logo{
+    position: absolute;
+    left: 20px;
+}
+
+@media screen and ( max-width: 768px ) {
+    .navbar__logo{
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+}

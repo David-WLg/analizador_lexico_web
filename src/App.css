@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+
+html, *, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: #313335;
+    min-height: 100vh;
+    padding-top: 54px;
+    overflow: hidden;
+}
+
+@media screen and ( max-width: 768px ) {
+    .contenedor{
+        padding-top: 92px;
+        max-height: auto;
+    }
+}
