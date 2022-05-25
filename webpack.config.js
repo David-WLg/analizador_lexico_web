@@ -84,7 +84,8 @@ module.exports = (env, {mode}) => {
             output: {
                 filename: 'static/js/main.[contenthash].js',
                 path: path.resolve(__dirname, 'build'),
-                clean: true
+                clean: true,
+                publicPath: '/'
             },
             module:{
                 rules: [

@@ -23,7 +23,9 @@ export const CodeProvider = ( {children} ) => {
     }
 
     const clean = () => {
-        setCodeState('')
+        setCodeState('');
+        setResults([]);
+        setComments([]);
     }
 
     const openFile = (e) => {
